@@ -1311,12 +1311,6 @@ body.scale-effect .btn-holder .btn-play {
     font-size: 56.5%;
 }
 
-@media screen and (min-width:540px) and (max-width:766px) {
-    #portfolios #portfolios-card .tab-content .grid {
-        max-width: 50%;
-    }
-}
-
 #portfolios #portfolios-card .tab-content figure.port-effect-up {}
 
 #portfolios #portfolios-card .tab-content figure.port-effect-up figcaption::before {
