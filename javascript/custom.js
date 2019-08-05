@@ -381,8 +381,8 @@
         initSkills();
         initClientsSliders();
         initVideoPlayAndClose();
-        initMail();
-        initMapsNormal();
+        // initMail();
+        // initMapsNormal();
     });
     jQuery(window).on('load', function() {
         $('div#loading').fadeOut(500);
