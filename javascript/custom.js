@@ -99,7 +99,6 @@
                 midClick: true
             });
             $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-                disableOn: 700,
                 type: 'iframe',
                 mainClass: 'mfp-fade',
                 removalDelay: 160,
@@ -379,13 +378,13 @@
         initScrollToTop();
         initPortfolio();
         initSkills();
-        initClientsSliders();
+        // initClientsSliders();
         initVideoPlayAndClose();
         // initMail();
         // initMapsNormal();
     });
     jQuery(window).on('load', function() {
-        $('div#loading').fadeOut(500);
+        // $('div#loading').fadeOut(500);
         window.sr = ScrollReveal({
             reset: false
         });
@@ -397,10 +396,10 @@
             duration: 1400,
             delay: 500
         });
-        sr.reveal('#v-card-holder', {
-            duration: 1400,
-            distance: '150px'
-        });
+        // sr.reveal('#v-card-holder', {
+        //     duration: 400,
+        //     distance: '150px'
+        // });
         sr.reveal('.skillbar-bar', {
             duration: 1800,
             delay: 300,

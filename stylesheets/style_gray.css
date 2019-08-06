@@ -408,13 +408,17 @@ body.scale-effect .btn-holder .btn-play {
     font-size: 16px;
     padding: 0;
     margin: 0;
+    margin-top: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
 }
 
 #loading .box-holder {
     position: absolute;
-    top: 42%;
-    left: 45%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+    font-size: 42px;
 }
 
 #loading .box-holder .load-box {
@@ -678,10 +682,8 @@ body.scale-effect .btn-holder .btn-play {
     display: block;
     width: 100%;
     height: 370px;
-    background: url(../images/backgrounds/background.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background: rgb(27,18,19);
+    background: linear-gradient(90deg, rgba(27,18,19,1) 0%, rgba(128,125,120,1) 18%, rgba(178,177,173,1) 38%, rgba(103,99,93,1) 71%, rgba(27,18,19,1) 100%);
 }
 
 #v-card-holder {
@@ -827,7 +829,7 @@ body.scale-effect .btn-holder .btn-play {
 }
 
 #v-card-holder #v-card #profile .add-btn i {
-    font-size: 35px;
+    font-size: 24px;
     color: #fff;
 }
 
@@ -2351,10 +2353,8 @@ footer {
     display: block;
     width: 100%;
     height: 370px;
-    background: url(../images/backgrounds/background.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background: rgb(27,18,19);
+    background: linear-gradient(90deg, rgba(27,18,19,1) 0%, rgba(128,125,120,1) 18%, rgba(178,177,173,1) 38%, rgba(103,99,93,1) 71%, rgba(27,18,19,1) 100%);
 }
 
 .single-page {
@@ -2618,4 +2618,11 @@ hr {
 
 .sbg-img {
     margin-bottom: -76px;
+}
+
+#contact-form:invalid #submit {
+    pointer-events: none;
+    cursor: not-allowed;
+    color: #bfbfbf;
+    background-color: #949494;
 }
